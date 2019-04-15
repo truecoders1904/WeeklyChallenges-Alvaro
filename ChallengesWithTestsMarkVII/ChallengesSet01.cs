@@ -33,7 +33,7 @@ namespace ChallengesWithTestsMarkVII
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            return "Hello!";
         }
 
         public string GetHey()
