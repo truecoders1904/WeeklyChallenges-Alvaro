@@ -25,27 +25,28 @@ namespace ChallengesWithTestsMarkVII
         {
             return Math.Min(number1, number2);
         }
+       
+    public string GetGreeting(string nameOfPerson)
+    {
+       
+        if (nameOfPerson != "")
+        {
+            return $"Hello, {nameOfPerson}!";
+        }
+        else
+        {
+            return $"Hello!";
+        }
+    }
+
+    public string GetHey()
+    {
+        return "HEY!";
+    }
 
         public long Multiply(long factor1, long factor2)
         {
             return factor1 * factor2;
-        }
-
-        public string GetGreeting(string nameOfPerson)
-        {
-            if (nameOfPerson != "")
-            {
-                return $"Hello, {nameOfPerson}!";
-            }
-            else
-            {
-                return $"Hello!";
-            }
-        }
-
-        public string GetHey()
-        {
-            return "HEY!";
         }
     }
 }
