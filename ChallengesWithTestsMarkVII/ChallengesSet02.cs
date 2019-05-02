@@ -28,7 +28,6 @@ namespace ChallengesWithTestsMarkVII
             {
                 return false;
             }
-
         }
 
         public bool IsNumberEven(int number)
