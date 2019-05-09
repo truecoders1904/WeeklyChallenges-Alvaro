@@ -58,6 +58,7 @@ namespace ChallengesWithTestsMarkVII
         }
 
         public char GetLastLetterOfString(string val)
+
         {
             return val[val.Length - 1];
         }
