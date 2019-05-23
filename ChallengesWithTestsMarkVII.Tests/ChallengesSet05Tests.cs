@@ -157,7 +157,7 @@ namespace ChallengesWithTestsMarkVII.Tests
         {
             // Arrange
             ChallengesSet05 challenger = new ChallengesSet05();
-            List<double> numbersAsList = new List<double>(numbers);
+            List<double> numbersAsList = numbers == null ? null : new List<double>(numbers);
 
             // Act
             double[] actual = challenger.GetEveryFourthElement(numbersAsList);
